@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API = 'https://cybersaarthi-server.onrender.com';
+const API = 'https://cybersaarthi-server.onrender.com/api';
 
 export default function App() {
   const [token, setToken] = useState(localStorage.getItem('token') || '');
